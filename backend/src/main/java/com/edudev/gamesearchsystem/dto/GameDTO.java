@@ -1,10 +1,14 @@
 package com.edudev.gamesearchsystem.dto;
 
+import java.io.Serializable;
+
 import com.edudev.gamesearchsystem.entities.Game;
 import com.edudev.gamesearchsystem.entities.enums.Platform;
 
-public class GameDTO {
+public class GameDTO implements Serializable{
 
+	private static final long serialVersionUID = 1L;
+	
 	private Long id;
 	private String title;
 	private Platform platform;
