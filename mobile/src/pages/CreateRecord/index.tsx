@@ -13,7 +13,7 @@ const placeholder = {
   value: null
 }
 
-const BASE_URL = "http://192.168.1.21:8080";
+const BASE_URL = "http://192.168.1.103:8080";
 
 const mapSelectValue = (games: Game[]) => {
   return games.map(game => ({
@@ -50,7 +50,7 @@ const CreateRecord = () => {
       setSelectedGame('');
       setPlatform(undefined);
     })
-    .catch(() => Alert.alert('Erro ao listar os jogos!'))
+    .catch(() => Alert.alert('Erro ao salvar as informações!'))
   }
 
   useEffect(() => {
@@ -59,7 +59,7 @@ const CreateRecord = () => {
 
       setAllGames(selectValues);
     })
-    .catch(() => Alert.alert('Erro ao salvar as informações!'))
+    .catch(() => Alert.alert('Erro ao listar os jogos'))
   }, []);
 
 

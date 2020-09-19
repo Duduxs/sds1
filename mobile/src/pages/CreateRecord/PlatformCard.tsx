@@ -20,7 +20,7 @@ const PlatformCard = ({ platform, onChange, icon, activePlatform  }: Props) => {
         style={[styles.platformCard, {backgroundColor}]}
         onPress={() => onChange(platform)}
          >
-        <Icon name={Icon} size={60} color={textColor} />
+        <Icon name={icon} size={60} color={textColor} />
         <Text style={[styles.platformCardText, {color: textColor}]}>
             {platform === 'PLAYSTATION' ? 'PS' : platform}
         </Text>
