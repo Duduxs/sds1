@@ -6,7 +6,7 @@ import axios from 'axios';
 import Filters from '../../components/Filters';
 import './styles.css';
 
-const BASE_URL = 'http://localhost:8080';
+const BASE_URL = 'https://sds1-edu.herokuapp.com';
 
 const Records = () => {
     const [ recordsResponse , setRecordsResponse] = useState<RecordResponse>();
