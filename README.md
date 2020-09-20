@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://ik.imagekit.io/27ewoxssse/Proffy_logo_DVz86SNdF.png"> 
+<img width=150 src="https://ik.imagekit.io/27ewoxssse/logo_H8ViyNhHgt.svg"> 
 <br>
 </h1>
 
@@ -76,7 +76,7 @@ To run the API server:
 
 ```bash
 # Go into the api folder
-$ cd api
+$ cd backend
 
 # Install dependencies
 $ npm i
@@ -89,7 +89,7 @@ To run the frontend web:
 
 ```bash
 # Go into the web folder
-$ cd web
+$ cd frontend-web
 
 # Install dependencies
 $ npm i
