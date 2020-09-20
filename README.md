@@ -4,11 +4,11 @@
 </h1>
 
 <h4 align="center">
-  <p>Proffy</p>
+  <p>Big Game Survey</p>
   
-  <p>This application was developed during the NLW from RocketSeat.</p>
+  <p>This application was developed during the SDS from RocketSeat.</p>
 
-  <p>This project is based on an application for connect students and teachers.</p>
+  <p>This project is based in a survey for collect the most loved games from Gamers.</p>
   
 </h4>
 
